@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'SFProDisplay',
+    sans-serif;
+}
+body{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+form{
+    width: 700px;
+    margin: 0 auto;
+}
+input{
+    margin: 30px;
+    width: 277px;
+    height: 59px;
+    padding: 20px;
+}
+button{
+    width: 277px;
+    height: 59px;
+    background: #4200FF;
+    border: 2px solid #4200FF;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    
+}
+.must{
+    border: 3px solid #4200FF;
+}
+.error{
+    border: 3px solid red;
+}
+label{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    font-size: 12px;
+    margin-bottom: -20px;
+}
